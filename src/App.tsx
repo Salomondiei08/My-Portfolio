@@ -4,6 +4,7 @@ import Name from "./components/Name";
 import Title from "./components/Title";
 import Bio from "./components/Bio";
 import Button from "./components/Button";
+import Socials from "./components/Socials";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Title />
       <Bio />
       <Button />
+      <Socials />
     </>
   );
 }
