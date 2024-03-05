@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const Socials = () => {
   return (
     <>
-      <div className="flex gap-5 mt-7 w-full justify-center">
+      <div className="flex gap-8 mt-7 w-full justify-center">
         <a
           href="https://github.com/matthewyoungjr"
           target="_blank"
