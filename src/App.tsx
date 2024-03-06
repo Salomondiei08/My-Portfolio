@@ -5,6 +5,7 @@ import Title from "./components/Title";
 import Bio from "./components/Bio";
 import Button from "./components/Button";
 import Socials from "./components/Socials";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Bio />
       <Button />
       <Socials />
+      <Skills />
     </>
   );
 }
