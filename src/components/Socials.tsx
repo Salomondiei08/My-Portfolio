@@ -23,7 +23,7 @@ const Socials = () => {
           <FaLinkedin className="fill-blue-500 size-8" />
         </a>
         <a
-          href=""
+          href="https://twitter.com/themattjnr"
           target="_blank"
           rel="noreferrer"
           className="bg-neutral-900 p-2 rounded-lg hover:bg-neutral-800"
