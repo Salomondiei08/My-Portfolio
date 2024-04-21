@@ -9,18 +9,20 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiChakraui } from "react-icons/si";
 import { BiLogoVisualStudio } from "react-icons/bi";
 import { IoLogoFigma } from "react-icons/io5";
+import { FaChevronDown } from "react-icons/fa";
 
 const Skills = () => {
   return (
     <>
       <div className="bg-neutral-900 m-3 mt-7 rounded-md max-h-80 pb-1 sm:w-2/3 sm:mx-auto md:w-2/3 md:mx-auto lg:w-2/5 lg:mx-auto">
-        <div className="flex gap-x-11">
-          <i className="p-1 bg-neutral-800 rounded-lg ml-2 mt-2">
-            <RiToolsFill className="fill-white size-6" />
+        <div className="flex justify-between items-center">
+          <i className="p-1 bg-neutral-800 rounded-lg mt-2 ml-2">
+            <RiToolsFill color="white" size={24} className="" />
           </i>
-          <h3 className="text-white mt-3 font-sans text-base font-semibold">
+          <p className="text-white font-sans text-base font-semibold mt-2">
             What i work with
-          </h3>
+          </p>
+          <FaChevronDown color="white" className="mt-2 mr-2" />
         </div>
 
         <div className="bg-neutral-800 m-2 rounded-md mt-6 pb-3">
