@@ -1,9 +1,11 @@
+import img from "/src/assets/My Img.jpeg";
+
 const Avatar = () => {
   return (
     <div className="container mx-auto mt-10 flex justify-center text-white">
       <img
-        className=" size-32 object-cover rounded-lg object-top"
-        src="/myphoto2.jpg"
+        className="border-4 border-gray-600 size-40 object-cover rounded-full"
+        src={img}
         alt="A picture of Matthew Young"
       />
     </div>
