@@ -10,7 +10,11 @@ import { SiChakraui } from "react-icons/si";
 import { BiLogoVisualStudio } from "react-icons/bi";
 import { IoLogoFigma } from "react-icons/io5";
 import { FaChevronDown } from "react-icons/fa";
-
+import { RiFlutterFill } from "react-icons/ri";
+import { SiFastapi } from "react-icons/si";
+import { SiNestjs } from "react-icons/si";
+import { SiDart } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
 const Skills = () => {
   return (
     <>
@@ -30,6 +34,24 @@ const Skills = () => {
             Languages
           </h4>
           <div className="flex gap-5 px-2">
+
+        
+            <a
+              href="https://dart.dev/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <SiDart className="size-7 fill-blue-500 rounded-md hover:scale-125" />
+            </a>
+            <a
+              href="https://www.python.org/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <FaPython className="size-8 fill-yellow-400 rounded-md hover:scale-125" />
+            </a>
+
+
             <a
               href="https://www.typescriptlang.org/"
               rel="noreferrer"
@@ -44,37 +66,27 @@ const Skills = () => {
             >
               <SiJavascript className="size-7 fill-yellow-400 rounded-md hover:scale-125" />
             </a>
-            <a
-              href="https://developer.mozilla.org/en-US/docs/Web/html"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <FaHtml5 className="size-8 fill-orange-700 rounded-md hover:scale-125" />
-            </a>
-            <a
-              href="https://developer.mozilla.org/en-US/docs/Web/css"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <FaCss3Alt className="size-8 fill-blue-600 rounded-md hover:scale-125" />
-            </a>
           </div>
 
           <h4 className="text-gray-400 text-xs p-2 uppercase font-semibold pt-4">
             Frameworks
           </h4>
           <div className="flex gap-5 px-2">
+          <a
+              href="https://flutter.dev/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <RiFlutterFill className="size-7 fill-blue-500 rounded-md hover:scale-125" />
+            </a>
             <a href="https://react.dev/" rel="noreferrer" target="_blank">
               <FaReact className="size-7 fill-blue-500 rounded-md hover:scale-125" />
             </a>
-            <a href="https://svelte.dev/" rel="noreferrer" target="_blank">
-              <SiSvelte className="size-7 fill-orange-700 rounded-md hover:scale-125" />
+            <a href="https://nestjs.com/" rel="noreferrer" target="_blank">
+              <SiNestjs className="size-7 fill-red-500 rounded-md hover:scale-125" />
             </a>
-            <a href="https://tailwindcss.com/" rel="noreferrer" target="_blank">
-              <SiTailwindcss className="size-8 fill-blue-400 rounded-md hover:scale-125" />
-            </a>
-            <a href="https://chakra-ui.com/" rel="noreferrer" target="_blank">
-              <SiChakraui className="size-8 fill-teal-500 rounded-md hover:scale-125" />
+            <a href="https://fastapi.tiangolo.com/" rel="noreferrer" target="_blank">
+              <SiFastapi className="size-7 fill-green-500 rounded-md hover:scale-125" />
             </a>
           </div>
 

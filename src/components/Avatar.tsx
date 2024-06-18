@@ -1,4 +1,4 @@
-import img from "/src/assets/My Img.jpeg";
+import img from "/src/assets/salomon.jpg";
 
 const Avatar = () => {
   return (

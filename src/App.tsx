@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Avatar />
-      <Name fname="Matthew" lname="Young" />
+      <Name fname="Salomon" lname="DIEI" />
       <Title />
       <Bio />
       <Button />
