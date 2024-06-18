@@ -1,12 +1,7 @@
 import { RiToolsFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
-import { SiSvelte } from "react-icons/si";
-import { SiTailwindcss } from "react-icons/si";
-import { SiChakraui } from "react-icons/si";
 import { BiLogoVisualStudio } from "react-icons/bi";
 import { IoLogoFigma } from "react-icons/io5";
 import { FaChevronDown } from "react-icons/fa";
