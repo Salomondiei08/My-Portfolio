@@ -6,7 +6,7 @@ const Avatar = () => {
       <img
         className="border-4 border-gray-600 size-40 object-cover rounded-full"
         src={img}
-        alt="A picture of Matthew Young"
+        alt="A picture of Salomon DIEI"
       />
     </div>
   );
